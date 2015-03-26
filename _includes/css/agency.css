@@ -177,9 +177,9 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     background-image: url("img/{{site.logo}}");
-    background-size: auto 60px;
+    background-size: auto 75%;
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: 8px center;
     padding-left: 60px;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.color.primary }};
@@ -272,8 +272,9 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(img/header-bg.jpg);
-    background-position: center center;
-    background-repeat: none;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
