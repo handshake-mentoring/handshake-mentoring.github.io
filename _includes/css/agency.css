@@ -308,6 +308,7 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+/* For large screens */
 @media(min-width:768px) {
 
     header .intro-text {
@@ -333,17 +334,11 @@ header .intro-text .intro-heading {
     }
 }
 
+/* For mobile */
 @media screen and (max-device-width: 640px) {
-    
-    /*header {
-        background-image: url(img/header-bg.jpg);
-        background-position: center top;
-        background-size: auto 100%;
-    }*/
 
     header .intro-text .intro-heading {
-        font-size: 30px;
-        color: #333;
+        font-size: 45px;
     }
 }
 
