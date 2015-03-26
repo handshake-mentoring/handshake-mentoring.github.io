@@ -333,7 +333,7 @@ header .intro-text .intro-heading {
     }
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+@media screen and (max-device-width: 640px) {
     
     /*header {
         background-image: url(img/header-bg.jpg);
@@ -342,7 +342,8 @@ header .intro-text .intro-heading {
     }*/
 
     header .intro-text .intro-heading {
-        font-size: 50px;
+        font-size: 30px;
+        color: #333;
     }
 }
 
