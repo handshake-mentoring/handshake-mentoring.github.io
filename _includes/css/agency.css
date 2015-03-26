@@ -278,7 +278,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(img/header-bg.jpg);
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -334,10 +334,15 @@ header .intro-text .intro-heading {
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 640px) {
-    header {
+    
+    /*header {
         background-image: url(img/header-bg.jpg);
         background-position: center top;
         background-size: auto 100%;
+    }*/
+
+    header .intro-text .intro-heading {
+        font-size: 50px;
     }
 }
 
