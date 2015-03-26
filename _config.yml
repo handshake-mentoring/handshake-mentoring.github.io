@@ -15,6 +15,9 @@ color:
   secondary-dark: 333
 
 # Team names, titles and social links
+team:
+  pic: team
+
 people:
 - name: Carina Boo
   pic: carina

@@ -650,6 +650,12 @@ section h3.section-subheading {
     }
 }
 
+.team img {
+    width: 100%;
+    border-radius: 20px;
+    border: 7px solid #fff;
+}
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;
